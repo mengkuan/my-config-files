@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sparkleshare>
+  <user>
+    <name>Meng Kuan</name>
+    <email>mengkuan@gmail.com</email>
+  </user>
+  <notifications>True</notifications>
+  <folder>
+    <name>cabinet</name>
+    <url>ssh://shareshare@wiki/home/shareshare/cabinet.git</url>
+    <backend>Git</backend>
+    <announcements_url>tcp://wiki.int.orion:1986</announcements_url>
+  </folder>
+</sparkleshare>
