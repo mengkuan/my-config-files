@@ -9,3 +9,6 @@ let g:ctrlp_custom_ignore = {
 
 " disable mouse support in all modes
 set mouse=
+
+" do not let cursor go beyond last character of the line
+set virtualedit=
