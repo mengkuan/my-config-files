@@ -111,3 +111,4 @@ run_scripts()
 
 run_scripts ~/my-config-files/bashrc.d
 
+[ -d ~/.virtualenvs/activfy ] && workon activfy
