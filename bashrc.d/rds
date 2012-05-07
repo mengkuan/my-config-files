@@ -1,8 +1,20 @@
 #!/bin/bash
 
-export SAS_HOME=/opt/sas
+export SAS_HOME="/opt/sas"
+export RDS_HOME="/opt/rds"
+export AIL_HOME="/opt/shell"
+
+[ -d ~/smc ] && export SMC_HOME=~/smc
+
 export GRIDGAIN_HOME=$SAS_HOME
 export PATH=$PATH:$GRIDGAIN_HOME/bin
+
 export GRAILS_HOME=~/springsource/grails-1.3.7
 export PATH=$PATH:$GRAILS_HOME/bin
+
+export ANT_HOME=/opt/apache-ant-1.8.3
+export PATH=$PATH:$ANT_HOME/bin
+
+alias regenlogic1="pushd . && cd ~/workspace/Sas/src/java && java -jar ~/smc/bin/Smc.jar -serial -java choco/statemachine/l1/Logic1.sm && popd"
+alias regenlogic3="pushd . && cd ~/workspace/Sas/src/java && java -jar ~/smc/bin/Smc.jar -serial -java choco/statemachine/l3/Logic3.sm && popd"
 

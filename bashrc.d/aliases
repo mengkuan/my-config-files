@@ -1,4 +1,5 @@
 #!/bin/bash
 
 alias go='gnome-open'
+alias wget="wget --no-check-certificate"
 
