@@ -1,5 +1,5 @@
 #!/bin/bash
 
 export EDITOR=vim
-export CDPATH="~/workspace"
+export CDPATH="~/workspace:~/ws2"
 
