@@ -2,4 +2,5 @@
 
 alias go='gnome-open'
 alias wget="wget --no-check-certificate"
+alias watchmedo="fab -H localhost copy; watchmedo shell-command --recursive --patterns='*y;*.js;*.css;*.html' --command='fab -H localhost copy'"
 

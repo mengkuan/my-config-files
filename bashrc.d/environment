@@ -3,3 +3,7 @@
 export EDITOR=vim
 export CDPATH="~/workspace:~/ws2"
 
+if [ -d $HOME/bin ]; then
+    export PATH=$PATH:$HOME/bin
+fi
+
