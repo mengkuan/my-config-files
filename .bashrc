@@ -113,3 +113,6 @@ run_scripts ~/my-config-files/bashrc.d
 
 [ -d ~/.virtualenvs/activfy ] && workon activfy
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
