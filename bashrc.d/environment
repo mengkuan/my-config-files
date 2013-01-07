@@ -1,5 +1,9 @@
 #!/bin/bash
 
 export EDITOR=vim
-export CDPATH="~/workspace"
+export CDPATH="~/heroku:~/ws2:~/workspace"
+
+if [ -d $HOME/bin ]; then
+    export PATH=$PATH:$HOME/bin
+fi
 

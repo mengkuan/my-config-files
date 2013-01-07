@@ -2,4 +2,6 @@
 
 alias go='gnome-open'
 alias wget="wget --no-check-certificate"
+alias watchmedo="fab -H wall-e copy; watchmedo shell-command --recursive --patterns='*.py;*.js;*.css;*.html;*.scss' --command='fab -H wall-e copy'"
+alias wakewalle="ssh root@base.int.orion ether-wake 00:19:99:9b:17:db"
 
